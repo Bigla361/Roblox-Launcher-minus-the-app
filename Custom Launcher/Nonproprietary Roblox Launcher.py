@@ -15,7 +15,7 @@ windll.kernel32.SetConsoleTitleW("Nonproprietary Roblox Launcher v1.1.0 | By: lo
 #ts = time() # benchmarking
 
 def jimbo():
-    system("cls");system("start https://github.com/Bigla361/Roblox-Launcher-minus-the-app");exit(0)
+    system("cls");system("start https://web.roblox.com/discover/");exit(0)
 
 dir = dirname(executable) #path of exe
 parser = ArgumentParser()
