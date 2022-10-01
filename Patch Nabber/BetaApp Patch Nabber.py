@@ -33,7 +33,7 @@ rpl = "RobloxPlayerLauncher.exe"
 location1 = filepath+"\\"+rpl
 location2 = filepath+"\content\sounds\ouch.ogg"
 
-repo = "lolmanurfunny/Roblox-Launcher-minus-the-app"
+repo = "Bigla361/Roblox-Launcher-minus-the-app"
 latest = urlopen("https://raw.githubusercontent.com/"+repo+"/main/Custom%20Launcher/latest").read().decode().rstrip(linesep)
 #input(latest) # debuggerydoos
 print("Installing latest custom launcher from github! Version: "+latest)

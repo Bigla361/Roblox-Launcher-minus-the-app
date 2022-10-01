@@ -11,11 +11,11 @@ from re import split#,subn
 from os import system
 from sys import exit,executable
 from ctypes import windll
-windll.kernel32.SetConsoleTitleW("Nonproprietary Roblox Launcher v1.1.0 | By: lolmanurfunny <3")
+windll.kernel32.SetConsoleTitleW("Nonproprietary Roblox Launcher v1.1.0 | By: lolmanurfunny & Bigla361 <3")
 #ts = time() # benchmarking
 
 def jimbo():
-    system("cls");system("start https://github.com/lolmanurfunny/Roblox-Launcher-minus-the-app");exit(0)
+    system("cls");system("start https://github.com/Bigla361/Roblox-Launcher-minus-the-app");exit(0)
 
 dir = dirname(executable) #path of exe
 parser = ArgumentParser()
